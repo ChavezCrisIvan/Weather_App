@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+    font-family:'Poppins',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://source.unsplash.com/1920x1080/?nature,,landscape');
+}
+.card{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    height: 100%;
+    max-height: 350px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+.search-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-box button{
+    margin: 0.5rem;
+    border-radius: 50%;
+    border: none;
+    width: 3em;
+    height: 3em;
+    background-color: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box button:hover{
+    background-color: #0699fc8b;
+}
+.temp{
+    margin: 0;
+    justify-content: left;
+    display:flex;
+}
+.search-bar{
+    border: none;
+    outline:none;
+    padding: 0.4em 1em;
+    border-radius: 18px;
+    height: 2em;
+    width: calc(100% - 100px);
+    color: white;
+    font-family: inherit;
+    font-size: 80%;
+    background-color: #7c7c7c2b;
+}
+.weather{
+    position: relative;
+}
